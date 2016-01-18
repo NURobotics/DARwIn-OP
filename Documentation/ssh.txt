@@ -1,0 +1,27 @@
+In order to connect to Darwin we will primarily be using the ssh protocol.
+
+You must be connected to the same WiFi network as Darwin in order to properly
+ssh into Darwin.
+
+If you want to use a wired connection through Ethernet, in order to ssh in 
+terminal you have to use the command:
+
+ssh darwin@192.168.123.1
+
+When the password is prompted type: 111111
+
+
+In order to connect to Darwin through WiFi:
+
+ssh darwin@10.105.198.253
+
+When the password is prompted type: 111111
+
+Now you should be in Darwin.
+
+In order to get into Darwin's project that uses the library you want to 
+get out of the home directory and into the darwin directory by using 
+cd .. until you can't any further.
+
+From there type cd darwin and then cd Linux and you are able to write your 
+own code.
